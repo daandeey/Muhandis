@@ -6,6 +6,7 @@ body {
     padding: 0;
     font-weight: 700;
     line-height: 40px;
+    overflow-x: hidden;
 }
 
 #hero-text {
@@ -60,17 +61,13 @@ p, ul {
 
 .jumbotron {
     background-image: url("bg-hero-min.jpg");
-    height: 100%;
+    height: 20%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Montserrat, sans-serif;
     display: block;
     color: white;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-left: 200px;
-    padding-right: 200px;
     
 }
 
@@ -195,7 +192,7 @@ p, ul {
     background-color: #fff !important;
 }
 
-.navbar-default .navbar-toggle {
+.navbar-expand-lg .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
 }

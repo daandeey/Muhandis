@@ -1,0 +1,33 @@
+.navbar {
+background-color: #4ccccd;
+z-index: 9999;
+border: 0;
+font-size: 12px !important;
+line-height: 1.42857143 !important;
+letter-spacing: 1px;
+font-weight: 700;
+border-radius: 0;
+font-family: Montserrat, sans-serif;
+color: white;
+width: 100%;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+color: #fff !important;
+font-weight: bold;
+}
+
+#nav-head {
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+color: #24b4b4 !important;
+background-color: #fff !important;
+}
+
+.navbar-expand-lg .navbar-toggle {
+border-color: transparent;
+color: #fff !important;
+}
